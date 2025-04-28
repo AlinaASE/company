@@ -16,7 +16,7 @@ function ProjectShow() {
         start: "0% 95%",
         end: "0% 30%",
         scrub: true,
-        markers: true,
+      
       },
     });
     gsap.to("#containerD5", {
@@ -26,7 +26,7 @@ function ProjectShow() {
         start: "0% 95%",
         end: "0% 30%",
         scrub: true,
-        markers: true,
+      
       },
     });
     //5 end
@@ -38,7 +38,7 @@ function ProjectShow() {
         start: "0% 95%",
         end: "0% 30%",
         scrub: true,
-        markers: true,
+      
       },
     });
     gsap.to("#containerD4", {
@@ -48,7 +48,7 @@ function ProjectShow() {
         start: "0% 95%",
         end: "0% 30%",
         scrub: true,
-        markers: true,
+      
       },
     });
     //4 end
@@ -60,7 +60,7 @@ function ProjectShow() {
         start: "0% 95%",
         end: "0% 30%",
         scrub: true,
-        markers: true,
+      
       },
     });
     gsap.to("#containerD3", {
@@ -70,31 +70,29 @@ function ProjectShow() {
         start: "0% 95%",
         end: "0% 30%",
         scrub: true,
-        markers: true,
+      
       },
     });
     //3 end
     // 2 start
         gsap.to("#container2", {
           x: -437,
-          opacity: 0.5,
           scrollTrigger: {
             trigger: "#container2",
             start: "0% 95%",
             end: "0% 30%",
             scrub: true,
-            markers: true,
+          
           },
         });
         gsap.to("#containerD2", {
           x: 437,
-          opacity: 0.5,
           scrollTrigger: {
             trigger: "#containerD2",
             start: "0% 95%",
             end: "0% 30%",
             scrub: true,
-            markers: true,
+          
           },
         });
     //2 end
@@ -106,7 +104,7 @@ function ProjectShow() {
             start: "0% 95%",
             end: "0% 30%",
             scrub: true,
-            markers: true,
+          
           },
         });
         gsap.to("#containerD1", {
@@ -116,7 +114,7 @@ function ProjectShow() {
             start: "0% 95%",
             end: "0% 30%",
             scrub: true,
-            markers: true,
+          
           },
         });
     //1 end
