@@ -1,12 +1,12 @@
-"use client"; // Gsap.js
+"use client";  
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// GSAP plugin register
+ 
 gsap.registerPlugin(ScrollTrigger);
 
-function Gsap() {
+function ProjectShow() {
   useEffect(() => {
     // 5 start
     gsap.to("#container5", {
@@ -260,4 +260,4 @@ function Gsap() {
   );
 }
 
-export default Gsap;
+export default ProjectShow;

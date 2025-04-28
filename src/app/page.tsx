@@ -3,7 +3,7 @@ import { ServicesData } from "@/service";
 import Image from "next/image";
 import Link from "next/link";
 import HowWork from "@/components/HowWork";
-import Gsap from "@/components/Gsap";
+import ProjectShow from "@/components/ProjectShow";
 
 export default function Home() {
   return (
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <Gsap />
+      <ProjectShow />
 
       <HowWork />
     </>
