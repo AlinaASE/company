@@ -16,6 +16,8 @@ import WebDevelopment from "./app/assets/web.webp";
 import AppDevelopment from "./app/assets/app.webp";
 import Testing from "./app/assets/testing.png";
 
+
+
 const Services_Data = [
   {
     id: 1,
