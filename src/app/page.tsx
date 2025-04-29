@@ -12,7 +12,7 @@ export default function Home() {
         {TeamMembers.map((member, index) => (
           <div key={index} className="border border-orange rounded-[12px] p-1">
             <div
-              className="relative w-[260px] h-[260px] rounded-xl overflow-hidden bg-cover bg-center"
+              className="relative w-[330px] h-[330px] rounded-xl overflow-hidden bg-cover bg-center"
               style={{ backgroundImage: "url(/teamBackgroung.png)" }}
             >
               <Image

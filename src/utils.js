@@ -1,6 +1,6 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import Aziz from "./app/assets/abdulaziz.jpeg";
+import Aziz from "./app/assets/abdulaziz.png";
 
 const Link_Header = [
   {
@@ -12,7 +12,7 @@ const Link_Header = [
     url: "/service",
   },
   {
-    name: "Out Team",
+    name: "Our Team",
     url: "/team",
   },
   {

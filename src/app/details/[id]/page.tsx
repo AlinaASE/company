@@ -17,7 +17,7 @@ console.log(service, "service");
 
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between items-center h-auto md:h-screen px-[4%] py-8">
+      <div className="flex flex-col md:flex-row justify-between items-center h-auto md:h-screen px-[5%] py-8">
         <div className="w-full md:w-1/2 flex flex-col justify-center items-start md:items-start space-y-4">
           <h3 className="text-[14px] text-orange font-bold">
             {service.heading}
