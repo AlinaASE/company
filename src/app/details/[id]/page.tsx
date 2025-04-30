@@ -10,7 +10,7 @@ const DetailsService = () => {
   const { id } = useParams();
 
   const service = ServicesData.find((item) => item.id.toString() === id);
-console.log(service, "service");
+  console.log(service, "service");
   if (!service) {
     return <div>Service not found</div>;
   }
@@ -19,7 +19,7 @@ console.log(service, "service");
     <>
       <div className="flex flex-col md:flex-row justify-between items-center h-auto md:h-screen px-[5%] py-8">
         <div className="w-full md:w-1/2 flex flex-col justify-center items-start md:items-start space-y-4">
-          <h3 className="text-[14px] text-orange font-bold">
+          <h3 className="text-[14px] text-customOrange font-bold">
             {service.heading}
           </h3>
           <h1 className="text-[24px] lg:text-[35px] leading-[29px] lg:leading-[39px] font-bold">

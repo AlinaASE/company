@@ -31,7 +31,7 @@ function SmartButton({
 }: SmartButtonProps) {
   const Height = height ?? "py-1";
   const Width = width ?? "px-5";
-  const buttonClass = `bg-orange rounded-[20px] ${Height} ${Width} transition duration-300 ${className}`;
+  const buttonClass = `bg-customOrange rounded-[20px] ${Height} ${Width} transition duration-300 ${className}`;
   const content = children || label;
 
   if (as === "a") {

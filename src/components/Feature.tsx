@@ -21,7 +21,7 @@ function Feature() {
         </p>
 
         {/* Features List */}
-        <div className="flex flex-col md:flex-row justify-center items-center py-4 w-full border-orange border-y-[1px] space-y-4 md:space-y-0">
+        <div className="flex flex-col md:flex-row justify-center items-center py-4 w-full border-customOrange border-y-[1px] space-y-4 md:space-y-0">
           <div className="w-full md:w-1/2">
             <ul className="space-y-2">
               <li>
@@ -64,33 +64,33 @@ function Feature() {
       </div>
 
       {/* Right Side (Card) */}
-      <div className="w-full md:w-[30%] flex flex-col items-start border border-orange rounded-[12px] p-6 md:p-8 bg-gradient-to-b from-[#4A4B4F] to-[#000000]">
+      <div className="w-full md:w-[30%] flex flex-col items-start border border-customOrange rounded-[12px] p-6 md:p-8 bg-gradient-to-b from-[#4A4B4F] to-[#000000]">
         <h1 className="text-xl md:text-2xl font-bold text-white mb-6">
           Feature
         </h1>
         <ul className="w-full space-y-4 text-white">
-          <li className="flex items-center justify-start border-b border-orange pb-2">
+          <li className="flex items-center justify-start border-b border-customOrange pb-2">
             <CheckIcon
               sx={{ color: "#FFAA17", fontSize: 24 }}
               className="mr-2"
             />{" "}
             User Interface (UI) Design
           </li>
-          <li className="flex items-center justify-start border-b border-orange pb-2">
+          <li className="flex items-center justify-start border-b border-customOrange pb-2">
             <CheckIcon
               sx={{ color: "#FFAA17", fontSize: 24 }}
               className="mr-2"
             />{" "}
             Functionality and Performance
           </li>
-          <li className="flex items-center justify-start border-b border-orange pb-2">
+          <li className="flex items-center justify-start border-b border-customOrange pb-2">
             <CheckIcon
               sx={{ color: "#FFAA17", fontSize: 24 }}
               className="mr-2"
             />{" "}
             Scalability
           </li>
-          <li className="flex items-center justify-start border-b border-orange pb-2">
+          <li className="flex items-center justify-start border-b border-customOrange pb-2">
             <CheckIcon
               sx={{ color: "#FFAA17", fontSize: 24 }}
               className="mr-2"

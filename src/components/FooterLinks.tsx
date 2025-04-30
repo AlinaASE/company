@@ -18,7 +18,7 @@ function FooterLinks({ data }: FooterLinksProps) {
               as="a"
               href={item.url}
               label={item.name}
-              linkClassName="pb-[2px] relative inline-flex items-center text-gray-300 hover:text-orange transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-orange after:transition-all after:duration-500 hover:after:w-full"
+              linkClassName="pb-[2px] relative inline-flex items-center text-gray-300 hover:text-customOrange transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-customOrange after:transition-all after:duration-500 hover:after:w-full"
             >
               {item.name}
             </SmartButton>

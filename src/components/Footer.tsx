@@ -6,11 +6,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-[#4A4B4F] to-[#000000] py-10 px-[4%]">
+    <footer className="bg-gradientClr dark:bg-gradientClrD py-10 px-[4%]">
       <div className="max-w-7xl mx-auto grid grid-cols-1  gap-8  md:grid-cols-2 lg:grid-cols-[400px_1fr_1fr_1fr]">
         <div>
           <Link href="/" className="text-[2rem] flex items-center">
-            <span className="text-[2.5rem] text-orange">♔</span>
+            <span className="text-[2.5rem] text-customOrange">♔</span>
             Check<span>mate</span>
           </Link>
           <p>
@@ -21,14 +21,14 @@ const Footer = () => {
           <div className="flex space-x-4 mt-4">
             {SocialLink.map((link) => (
               <div
-                className="ring-1 ring-orange bg-black rounded-full w-10 h-10 flex items-center justify-center"
+                className="ring-1 ring-customOrange bg-black rounded-full w-10 h-10 flex items-center justify-center"
                 key={link.name}
               >
                 <SmartButton
                   as="a"
                   href={link.url}
                   target="_blank"
-                  className="text-orange"
+                  className="text-customOrange"
                   label={link.name}
                 >
                   {link.icon}

@@ -8,9 +8,12 @@ import ProjectShow from "@/components/ProjectShow";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-wrap justify-center items-center min-h-screen bg-black gap-6 p-4">
+      <div className="flex flex-wrap justify-center items-center min-h-screen gap-6 p-4 dark:bg-primaryD bg-primary">
         {TeamMembers.map((member, index) => (
-          <div key={index} className="border border-orange rounded-[12px] p-1">
+          <div
+            key={index}
+            className="border border-customOrange rounded-[12px] p-1"
+          >
             <div
               className="relative w-[330px] h-[330px] rounded-xl overflow-hidden bg-cover bg-center"
               style={{ backgroundImage: "url(/teamBackgroung.png)" }}
@@ -22,21 +25,20 @@ export default function Home() {
               />
             </div>
             <div className="w-full text-center px-4 mt-2">
-              <h2 className="text-2xl font-bold text-orange">{member.name}</h2>
+              <h2 className="text-2xl font-bold text-customOrange">
+                {member.name}
+              </h2>
               <p className="text-white font-semibold mt-1">{member.role}</p>
             </div>
           </div>
         ))}
       </div>
 
-      <div className="flex flex-wrap justify-center gap-6 items-stretch">
+      <div className="flex flex-wrap justify-center gap-6 items-stretch dark:bg-primaryD bg-primary">
         {ServicesData.map((service, index) => (
           <div
             key={index}
-            className="w-[330px] p-6 rounded-xl border border-orange flex flex-col justify-between"
-            style={{
-              background: "linear-gradient(50deg, black 30%, #FFAB17 130%)",
-            }}
+            className="w-[330px] p-6 rounded-xl border border-customOrange flex flex-col justify-between bg-gradientCard dark:bg-gradientCardD"
           >
             <div>
               <div className="flex items-center mb-4">

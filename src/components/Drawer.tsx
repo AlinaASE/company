@@ -17,7 +17,7 @@ const MyDrawer = () => {
       <MenuIcon
         sx={{ fontSize: 35 }}
         onClick={show} // Trigger open state on click
-        className="text-orange cursor-pointer sm:hidden" // Hide on larger screens
+        className="text-customOrange cursor-pointer sm:hidden" // Hide on larger screens
       />
       <Drawer
         placement="right"

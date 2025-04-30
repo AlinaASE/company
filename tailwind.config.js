@@ -5,19 +5,22 @@ const config = {
   theme: {
     extend: {
       colors: {
-        orange: "#FFAA17",
+        // light theme
+        primary: "#ffffff",
+        text: "blue",
+        customOrange: "#FFAA17",
+
+        //dark theme
+        primaryD: "#000000",
       },
-      backgroundImage: {},
-      animation: {
-        wave1: "rotate 5s linear infinite",
-        wave2: "rotate 7s linear infinite",
-        wave3: "rotate 11s linear infinite",
-      },
-      keyframes: {
-        rotate: {
-          "0%": { transform: "rotate(0deg)" },
-          "100%": { transform: "rotate(360deg)" },
-        },
+      backgroundImage: {
+        // light theme
+        gradientCard: "linear-gradient(50deg,  white 30%, #ffffff 130%)",
+        gradientClr: "linear-gradient(to right, #ffffff, #ffffff)",
+
+        // dark theme
+        gradientCardD: "linear-gradient(50deg, black 30%, #FFAB17 130%)",
+        gradientClrD: "linear-gradient(to right, #4A4B4F, #000000)",
       },
     },
   },

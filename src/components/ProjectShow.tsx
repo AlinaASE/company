@@ -2,6 +2,9 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
+
+import Project from '../app/assets/timeline.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -136,137 +139,269 @@ function ProjectShow() {
   }, []);
 
   return (
-    <div className="relative flex justify-center items-center min-h-screen gap-2 overflow-hidden max-w-[380px] sm:max-w-[1600px]">
+    <div className="dark:bg-primaryD bg-primary relative flex justify-center items-center min-h-screen gap-2 overflow-hidden max-w-[380px] sm:max-w-[1600px]">
       {/* 1 */}
       <div id="container1" className="absolute flex flex-col gap-2">
-        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* 2 */}
       <div id="container2" className="absolute flex flex-col gap-2">
-        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md  rounded-[7px]"
+          />
         </div>
       </div>
       {/* 3 */}
       <div id="container3" className="absolute flex flex-col gap-2">
-        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* 4 */}
       <div id="container4" className="absolute flex flex-col gap-2">
-        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* 5 */}
       <div id="container5" className="absolute flex flex-col gap-2">
-        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* 6 */}
       <div className="absolute flex flex-col gap-2 z-[40]">
-        <div className="h-[105px] w-[80px] lg:h-[155px] lg:w-[120px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[105px] w-[80px] lg:h-[155px] lg:w-[120px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[105px] w-[80px] lg:h-[155px] lg:w-[120px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[105px] w-[80px] lg:h-[155px] lg:w-[120px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[105px] w-[80px] lg:h-[155px] lg:w-[120px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[105px] w-[80px] lg:h-[155px] lg:w-[120px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* D5 */}
       <div id="containerD5" className="absolute flex flex-col gap-2">
-        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[92px] w-[73px] lg:h-[142px] lg:w-[113px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* D4 */}
       <div id="containerD4" className="absolute flex flex-col gap-2">
-        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[78px] w-[65px] lg:h-[128px] lg:w-[105px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* D3 */}
       <div id="containerD3" className="absolute flex flex-col gap-2">
-        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[62px] w-[45px] lg:h-[112px] lg:w-[85px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* D2 */}
       <div id="containerD2" className="absolute flex flex-col gap-2">
-        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[45px] w-[35px] lg:h-[95px] lg:w-[75px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
       {/* D1 */}
       <div id="containerD1" className="absolute flex flex-col gap-2">
-        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
-        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px] bg-orange flex justify-center items-center  rounded-[7px]">
-          hello
+        <div className="h-[26px] w-[25px] lg:h-[76px] lg:w-[65px]  flex justify-center items-center  rounded-[7px]">
+          <Image
+            src={Project}
+            alt="timeline"
+            className="h-full w-full object-cover rounded-md"
+          />
         </div>
       </div>
     </div>

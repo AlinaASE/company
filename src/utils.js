@@ -1,5 +1,7 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
 import Aziz from "./app/assets/abdulaziz.png";
 
 const Link_Header = [
@@ -74,3 +76,5 @@ export const SocialLink = Link_Social;
 export const ServicesLink = Services_Link;
 export const ChevronIcon = ChevronRightIcon;
 export const TeamMembers = Team_Members;
+export const LightMode = LightModeIcon;
+export const DarkMode = DarkModeIcon;
